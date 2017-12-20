@@ -1,9 +1,5 @@
 var keys = [];
 var values = [];
-put("1",1);
-put(1,2);
-console.log(get("1"));
-console.log(get(1));
 function put(key,value){
  for(var i =0;i<keys.length;i++){
    if(keys[i]==key){
